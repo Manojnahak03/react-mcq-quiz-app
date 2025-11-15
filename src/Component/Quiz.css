@@ -1,0 +1,51 @@
+.quiz-container {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.question-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.question-box li {
+  background: #eee;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selected {
+  background: #b3e5fc !important;
+}
+
+.btn-box button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 100%;
+  background: blue;
+}
+
+.result-box {
+  padding: 40px;
+}
